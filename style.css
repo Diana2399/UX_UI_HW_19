@@ -4,7 +4,7 @@ body {
 .inline-block {
     display: inline-block;
     vertical-align: top;
-  margin-left: 10px;
+
   margin-right: 40px;
 }
 .logo {
@@ -34,6 +34,7 @@ ul {
     width: 500px;
     margin: 0 auto;
 }
+
 .heroImg img {
     height: 400px;
 }

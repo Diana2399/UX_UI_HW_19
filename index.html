@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title></title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css" type="text/css">
     </head>
     <body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
         <header class="navigation">
             <div class="inline-block logo">
                 <img src="./images/Diana.png" alt="logo">
@@ -24,34 +28,82 @@
                 <img src="./images/portfolio-self-png.png" alt="Diana">
                 </div>
                 <div>
-                <p>Creative, problem-solving UX/UI Designer. With a background in Project Coordination that has enabled me to see projects from inception to completion while adhering to budget and scheduling restrictions. </p>
+                    <h3>Diana Munoz</h3>
+                <h1>Website and User Interface Designer</h1>
+                <h3>Problem-solving.</h3>
+                <h3>Creative.</h3>
+                <h3>Memorable.</h3>
                 <button type="button">Download Resume</button>
             </div>
         </section>
 
         <section class= work>
             <h1>Work</h1>
-                <div class= workGrid>
-                <div><img src="" alt="p1"></div>
-                <div><h4>Rebuilding Together</h4>
-                  <p>sbiurbguiwbruig</p>
-                <button>View Project</button>
-                </div>
-                  
-                 <div><img src="" alt="p2"></div>
-                <div><h4>LoGos</h4>
-                  <p>sbiurbguiwbruig</p>
-                  <button>View Project</button>
-                </div>
-                  
-                 <div><img src="" alt="p3"></div>
-                <div><h4>Energy.gov</h4>
-                  <p>sbiurbguiwbruig</p>
-                  <button>View Project</button>
-                </div>
-                </div>
-                
-                <h3>View All Projects</h3>    
+                <div class= "row">
+
+                    <div id="carouselExampleCaptions" class="carousel slide">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="images/Rebuilding together.png" class="d-block w-100" alt="Rebuilding Together">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Rebuilding Together</h5>
+                              <p>A non-profit website redesign centered on establishing professionalism and user trust.</p>
+                              <a href="#" class="btn btn-primary">View Project</a>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/Logos.png" class="d-block w-100" alt="Logos">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>LoGos</h5>
+                              <p>An app designed to give users the most efficent navigation experience in unfamiliar locations.</p>
+                              <a href="#" class="btn btn-primary">View Project</a>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/Energy.png" class="d-block w-100" alt="Energy">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Energy.gov</h5>
+                              <p>A governement website redesign focused on user experience and user flow.</p>
+                              <a href="#" class="btn btn-primary">View Project</a>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+
+                    <div class="cardContainer col-lg-4 col-md-4 col-sm12">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/Rebuilding together.png" class="card-img-top" alt="Rebuilding Together">
+                        <div class="card-body">
+                          <h5 class="card-title">Rebuilding Together</h5>
+                          <p class="card-text">A non-profit website redesign centered on establishing professionalism and user trust. </p>
+                          <a href="#" class="btn btn-primary">View Project</a>
+                        </div>
+                      </div>
+                      </div>
+
+                      <div class="cardContainer col-lg-4 col-md-4 col-sm12">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/LoGos.png" class="card-img-top" alt="LoGos">
+                            <div class="card-body">
+                              <h5 class="card-title">LoGos</h5>
+                              <p class="card-text">An app designed to give users the most efficent navigation experience in unfamiliar locations.</p>
+                              <a href="#" class="btn btn-primary">View Project</a>
+                            </div>
+                          </div>
+                          </div>
                 
             </section>
 
@@ -91,6 +143,8 @@
                 <li class="inline-block">Contact</li>
             </ul>
         </footer>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
     </body>
     
 </html>
